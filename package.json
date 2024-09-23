@@ -1,0 +1,30 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "SOAP-service for obtaining weather information for the city",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ageenkoasa/soap-service-weather.git"
+  },
+  "keywords": [
+    "soap",
+    "service",
+    "weather",
+    "nodejs"
+  ],
+  "author": "Anna-Sofia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ageenkoasa/soap-service-weather/issues"
+  },
+  "homepage": "https://github.com/ageenkoasa/soap-service-weather#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-xml-bodyparser": "^0.3.0",
+    "xml2js": "^0.6.2"
+  }
+}
